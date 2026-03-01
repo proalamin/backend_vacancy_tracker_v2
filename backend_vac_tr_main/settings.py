@@ -66,6 +66,7 @@ WSGI_APPLICATION = 'backend_vac_tr_main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+#default db
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
